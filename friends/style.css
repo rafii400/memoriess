@@ -1,0 +1,119 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: #2C3333; 
+}
+
+
+ body {
+    
+     display: grid;
+
+   
+ }
+
+
+#particles-js{
+    height: 70vh;
+    width: 100%;   
+
+}
+
+
+
+
+
+
+
+/* card/////////////////////// */
+.card{
+    display: inline-block;
+    float: left;
+    margin-left: 40px;
+    border: none !important;
+}
+
+.pa{
+    
+    text-align:center;
+    text-transform: capitalize;
+    color: white;
+
+
+}
+
+img{
+    height:300px;
+    width:40px ;
+    border-radius: 10px !important;
+
+}
+
+
+
+
+
+
+/* //////////////////slider img////////////////////////////// */
+
+ .myimages {
+     display: flex;
+     overflow: hidden;
+     height: 50vw;
+     background: #333
+ }
+
+ .myimages img {
+     max-width: 100%;
+     vertical-align: middle;
+     border: 2px solid white;
+     box-sizing: border-box;
+     transition: opacity .2s
+ }
+
+ .myimages:hover img {
+     opacity: 0.5
+ }
+
+ .myimages img:hover {
+     opacity: 1
+ }
+
+ .first-column {
+     animation: var(--animation, none) 16s infinite linear
+ }
+
+ .first-column:hover {
+     animation-play-state: paused
+ }
+
+ .first-column:nth-of-type(odd) {
+     align-self: flex-end;
+     --direction: 50%
+ }
+
+ @keyframes slide {
+     to {
+         -webkit-transform: translateY(var(--direction, -50%));
+         transform: translateY(var(--direction, -50%))
+     }
+ }
+
+
+.first-column img{
+    height: 300px;
+    width: 300px;
+
+}
+
+  /* h1 tag */
+  h1{
+    text-align: center;
+    color: white;
+    font-family: emoji;
+
+
+
+  }
+ /* //////////////////////////////////////////// */
